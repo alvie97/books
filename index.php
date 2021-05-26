@@ -1,9 +1,5 @@
-<?php
+<?php get_header(); ?>
 
-get_header();
+<main class="mb-auto h-10">Content</main>
 
-wp_footer();
-?>
-
-</body>
-</html>
+<?php get_footer(); ?>
