@@ -8,23 +8,25 @@
         <div class="py-5"></div>
     </div>
 
-    <div id="links">
-        <h3>LOGO</h3>
-        <hr>
-        <nav>
-            <h4>Find my books</h4>
-            <a href="#">Amazon</a>
-            <a href="#">Goodreads</a>
-            <a href="#">Bookbub</a>
+    <div id="links" class="flex flex-col items-center space-y-1 w-1/4">
+        <h3 class="font-medium my-5">LOGO</h3>
+        <hr class="border-yellow-400 w-full">
+        <nav class="flex flex-col items-center py-4 space-y-1">
+            <h2 class="text-red-500 font-medium text-lg">Find my books</h2>
+            <a href="#" class="text-red-400">Amazon</a>
+            <a href="#" class="text-red-400">Goodreads</a>
+            <a href="#" class="text-red-400">Bookbub</a>
         </nav>
-        <hr>
-        <nav>
-            <h4>Follow Me</h4>
-            <a href="#">Instagram[icon]</a>
-            <a href="#">Facebook[icon]</a>
-            <a href="#">Twitter[icon]</a>
-            <a href="#">Pinterest[icon]</a>
-        </nav>
+        <hr class="border-yellow-400 w-full">
+        <div class="flex flex-col items-center">
+            <h1 class="text-red-500 text-lg font-medium">Follow Me</h1>
+            <nav class="flex flex-row space-x-3">
+                <a href="#"><i class="text-yellow-300 fab fa-instagram-square text-4xl"></i></a>
+                <a href="#"><i class="text-yellow-300 fab fa-facebook-square text-4xl"></i></a>
+                <a href="#"><i class="text-yellow-300 fab fa-twitter-square text-4xl"></i></a>
+                <a href="#"><i class="text-yellow-300 fab fa-pinterest-square text-4xl"></i></a>
+            </nav>
+        </div>
     </div>
 
 </footer>

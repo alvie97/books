@@ -7,7 +7,7 @@
   </head>
   <body <?php body_class('flex flex-col h-screen justify-between'); ?>>
     <div class="flex flex-row justify-between py-5 px-10 bg-gray-100">
-        <div class="font-medium">LOGO</div>
+        <h3 class="font-medium">LOGO</h3>
         <nav class="flex flex-row space-x-6 text-gray-800">
             <a class="hover:text-gray-500" href="#">About Me</a>
             <a class="hover:text-gray-500" href="#">My Writing Schedule</a>
