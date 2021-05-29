@@ -1,5 +1,4 @@
 <footer class="flex flex-row justify-center space-x-6 p-11 bg-red-50">
-
     <div id="newsletter" class="flex flex-col space-y-3 justify-items-center p-5 bg-red-400 w-1/4">
         <h1 class="text-center text-2xl font-medium text-red-100">Get the latests news</h1>
         <input type="text" placeholder="First Name" class="px-5 py-3 font-medium placeholder-gray-700">
@@ -28,8 +27,10 @@
             </nav>
         </div>
     </div>
-
 </footer>
+<div class="flex flex-row justify-end bg-red-50 px-10 py-3">
+    <p class="text-xs text-red-400">Copyright | Alfredo Viera | 2021</p>
+</div>
 <?php wp_footer(); ?>
 </body>
 
